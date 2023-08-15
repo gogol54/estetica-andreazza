@@ -10,26 +10,10 @@ const ImageBar = styled.img`
     height: 0px;
   }
 `
-
-const ImageFirst = styled.img`
-  width: 0px;
-  height: 0px;
-  @media (max-width: 540px) {
-    left: 5px;
-    width: 70px;
-    height: 50px;
-  }
-`
 const Topbar = () => {
   return (
     <nav className="navbar navbar-expand-lg fixed-top navbar-scroll shadow-0" style={{backgroundColor: '#EADFDB', color:'#966D39', marginBottom: '30px'}}>
       <div className="container">
-        <a className="navbar-brand" href="/">
-          <ImageFirst
-            src="https://firebasestorage.googleapis.com/v0/b/ecommerce-shop-82750.appspot.com/o/AF%20-%20MARCA%20REDONDA.png?alt=media&token=bea327c1-0073-4b66-837a-53c3a6b82ba1"
-            alt="logo de clinica estética Antonia Andreazza" 
-          />
-        </a>
         <a className="navbar-brand" href="/">
           <p className="titulo" style={{color:'#966D39'}}>  
             <span>Antonia Andreazza</span> Clínica Estética
