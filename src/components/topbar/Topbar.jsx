@@ -22,7 +22,7 @@ const ImageFirst = styled.img`
 `
 const Topbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg fixed-top navbar-scroll shadow-0" style={{backgroundColor: '#EADFDB', color:'#966D39'}}>
+    <nav className="navbar navbar-expand-lg fixed-top navbar-scroll shadow-0" style={{backgroundColor: '#EADFDB', color:'#966D39', marginBottom: '30px'}}>
       <div className="container">
         <a className="navbar-brand" href="/">
           <ImageFirst

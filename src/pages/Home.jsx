@@ -1,14 +1,13 @@
 import React from 'react'
 import Topbar from '../components/topbar/Topbar'
 import Footer from '../components/footer/Footer'
+import Slider from '../components/slider/Slider'
 
 const Home = () => {
   return (
     <>
       <Topbar />
-      <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-      <br /><br />
-      <br /><br /><br /><br /><br /><br /><br /><br />
+      <Slider />
       <Footer />
     </>
   )

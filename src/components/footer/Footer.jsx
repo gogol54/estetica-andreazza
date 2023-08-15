@@ -75,11 +75,6 @@ export default function App() {
               </p>
               <p style={{color: '#dadada'}}>
                 <a href='#!' className='text-reset'>
-                  Remoção de manchas e melasmas
-                </a>
-              </p>
-              <p style={{color: '#dadada'}}>
-                <a href='#!' className='text-reset'>
                   Redução de celulites
                 </a>
               </p>
