@@ -16,7 +16,7 @@ export default function App() {
                 <MDBIcon color='ligth' icon='gem' className='me-3' />
                 Antonia Andreazza 
               </h6>
-              <p style={{color: '#bebebe'}}>
+              <p style={{color: '#dadada'}}>
                 Tratamentos personalizados para resultados reais. 
                 Estética Avançada Facial e Corporal.
                 Pós-grad. em Estética Clínica.
@@ -25,7 +25,7 @@ export default function App() {
 
             <MDBCol md='2' lg='2' xl='2' className='mx-auto mb-4'>
               <h6 className='text-uppercase fw-bold mb-4' style={{color: 'white'}}>Atendimentos</h6>
-              <p style={{color: '#bebebe'}}>
+              <p style={{color: '#dadada'}}>
                 Seg a Sex 08:00 - 18:00
               </p>
              
@@ -33,27 +33,67 @@ export default function App() {
 
             <MDBCol md='3' lg='2' xl='2' className='mx-auto mb-4'>
               <h6 className='text-uppercase fw-bold mb-4' style={{color: 'white'}}>Serviços</h6>
-              <p style={{color: '#bebebe'}}>
+              <p style={{color: '#dadada'}}>
                 <a href='#!' className='text-reset'>
-                  Lipomodelagem
+                  Rejuvenescimento
                 </a>
               </p>
-              <p style={{color: '#bebebe'}}>
+              <p style={{color: '#dadada'}}>
                 <a href='#!' className='text-reset'>
-                  Peeling Quimico
+                  Redução da Flacidez Facial
                 </a>
               </p>
-              <p style={{color: '#bebebe'}}>
+              <p style={{color: '#dadada'}}>
                 <a href='#!' className='text-reset'>
-                  Skincare
+                  Remoção de papada
                 </a>
               </p>
-              <p style={{color: '#bebebe'}}>
+              <p style={{color: '#dadada'}}>
                 <a href='#!' className='text-reset'>
-                  Hidratação profunda
+                  Remoção de acne
                 </a>
               </p>
-              <p style={{color: '#bebebe'}}>
+              <p style={{color: '#dadada'}}>
+                <a href='#!' className='text-reset'>
+                  Remoção de manchas e melasmas
+                </a>
+              </p>
+              <p style={{color: '#dadada'}}>
+                <a href='#!' className='text-reset'>
+                  Redução de oleosidade ou ressecamento
+                </a>
+              </p>
+              <p style={{color: '#dadada'}}>
+                <a href='#!' className='text-reset'>
+                  Limpeza de pele
+                </a>
+              </p>
+              <p style={{color: '#dadada'}}>
+                <a href='#!' className='text-reset'>
+                  Remoção de enzimas, estrias e gordura localizada
+                </a>
+              </p>
+              <p style={{color: '#dadada'}}>
+                <a href='#!' className='text-reset'>
+                  Remoção de manchas e melasmas
+                </a>
+              </p>
+              <p style={{color: '#dadada'}}>
+                <a href='#!' className='text-reset'>
+                  Redução de celulites
+                </a>
+              </p>
+              <p style={{color: '#dadada'}}>
+                <a href='#!' className='text-reset'>
+                  Estetica intima
+                </a>
+              </p>
+              <p style={{color: '#dadada'}}>
+                <a href='#!' className='text-reset'>
+                  Redução da flacidez corporal
+                </a>
+              </p>            
+              <p style={{color: '#dadada'}}>
                 <a href='#!' className='text-reset'>
                   Depilação a Laser
                 </a>
@@ -62,15 +102,15 @@ export default function App() {
 
             <MDBCol md='4' lg='3' xl='3' className='mx-auto mb-md-0 mb-4'>
               <h6 className='text-uppercase fw-bold mb-4' style={{color: 'white'}}>Endereço</h6>
-              <p style={{color: '#bebebe'}}>
+              <p style={{color: '#dadada'}}>
                 <MDBIcon color='dark' icon='home' className='me-2' />
                 R. Gen. Canabarro, 885 - Centro, Rosário do Sul - RS, 97590-000
               </p>
-              <p style={{color: '#bebebe'}}>
+              <p style={{color: '#dadada'}}>
                 <MDBIcon color='dark' icon='envelope' className='me-3' />
-                info@example.com
+                estetica.antoniaandreazza@gmail.com
               </p>
-              <p style={{color: '#bebebe'}}>
+              <p style={{color: '#dadada'}}>
                 <MDBIcon color='dark' icon='phone' className='me-3' /> +55 55 99681-7475 
               </p>
              
