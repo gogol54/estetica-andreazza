@@ -6,15 +6,14 @@ const Topbar = () => {
     <nav className="navbar navbar-expand-lg fixed-top navbar-scroll shadow-0" style={{backgroundColor: '#EADFDB', color:'#966D39'}}>
       <div className="container">
         <a className="navbar-brand" href="#"> 
-          <span style={{color:'#966D39', fontSize:'22px'}}>Antonia Andreazza</span>  
-          <img 
-            src="https://firebasestorage.googleapis.com/v0/b/ecommerce-shop-82750.appspot.com/o/AF%20-%20MARCA%20REDONDA.png?alt=media&token=bea327c1-0073-4b66-837a-53c3a6b82ba1"
-            width='120px'
-            height='100px'
-            alt="" 
-          />
-          
+          <p className="titulo" style={{color:'#966D39', fontSize:'22px'}}>  <a href="javascript:void(0);">Antonia Andreazza</a> Clínica Estética</p>  
         </a>
+        <img 
+          src="https://firebasestorage.googleapis.com/v0/b/ecommerce-shop-82750.appspot.com/o/AF%20-%20MARCA%20REDONDA.png?alt=media&token=bea327c1-0073-4b66-837a-53c3a6b82ba1"
+          width='120px'
+          height='100px'
+          alt="" 
+        />
         <button className="navbar-toggler ps-0" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarExample01"
           aria-controls="navbarExample01" aria-expanded="false" aria-label="Toggle navigation">
           <span className="d-flex justify-content-start align-items-center">
