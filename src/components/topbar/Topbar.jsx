@@ -15,8 +15,9 @@ const ImageFirst = styled.img`
   width: 0px;
   height: 0px;
   @media (max-width: 540px) {
-    width: 80px;
-    height: 60px;
+    left: 5px;
+    width: 70px;
+    height: 50px;
   }
 `
 const Topbar = () => {
