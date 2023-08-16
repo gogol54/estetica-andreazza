@@ -11,7 +11,7 @@ export default function App() {
       <section className=''>
         <MDBContainer className='text-center text-md-start mt-5'>
           <MDBRow className='mt-3'>
-            <MDBCol md='3' lg='4' xl='3' className='mx-auto mb-4'>
+            <MDBCol md='4' lg='4' xl='3' className='mx-auto mb-4'>
               <h6 className='text-uppercase fw-bold mb-4' style={{color: 'white'}}>
                 <MDBIcon color='ligth' icon='gem' className='me-3' />
                 Antonia Andreazza 
@@ -23,7 +23,7 @@ export default function App() {
               </p>
             </MDBCol>
 
-            <MDBCol md='2' lg='2' xl='2' className='mx-auto mb-4'>
+            <MDBCol md='3' lg='1' xl='3' className='mx-auto mb-4'>
               <h6 className='text-uppercase fw-bold mb-4' style={{color: 'white'}}>Atendimentos</h6>
               <p style={{color: '#dadada'}}>
                 Seg a Sex 08:00 - 18:00
@@ -31,71 +31,62 @@ export default function App() {
              
             </MDBCol>
 
-            <MDBCol md='3' lg='2' xl='2' className='mx-auto mb-4'>
+            <MDBCol md='3' lg='4' xl='2' className='mx-auto mb-4'>
               <h6 className='text-uppercase fw-bold mb-4' style={{color: 'white'}}>Serviços</h6>
               <p style={{color: '#dadada'}}>
                 <a href='#!' className='text-reset'>
-                  Rejuvenescimento
+                  Peeling Químico
                 </a>
               </p>
               <p style={{color: '#dadada'}}>
                 <a href='#!' className='text-reset'>
-                  Redução da Flacidez Facial
+                  Hidratação Facial
                 </a>
               </p>
               <p style={{color: '#dadada'}}>
                 <a href='#!' className='text-reset'>
-                  Remoção de papada
+                  Detox Facial
                 </a>
               </p>
               <p style={{color: '#dadada'}}>
                 <a href='#!' className='text-reset'>
-                  Remoção de acne
+                  Estimulação de Colágeno
                 </a>
               </p>
               <p style={{color: '#dadada'}}>
                 <a href='#!' className='text-reset'>
-                  Remoção de manchas e melasmas
+                  Lipomodelagem Corporal
                 </a>
               </p>
-              <p style={{color: '#dadada'}}>
-                <a href='#!' className='text-reset'>
-                  Redução de oleosidade ou ressecamento
-                </a>
-              </p>
-              <p style={{color: '#dadada'}}>
-                <a href='#!' className='text-reset'>
-                  Limpeza de pele
-                </a>
-              </p>
-              <p style={{color: '#dadada'}}>
-                <a href='#!' className='text-reset'>
-                  Remoção de enzimas, estrias e gordura localizada
-                </a>
-              </p>
-              <p style={{color: '#dadada'}}>
-                <a href='#!' className='text-reset'>
-                  Redução de celulites
-                </a>
-              </p>
-              <p style={{color: '#dadada'}}>
-                <a href='#!' className='text-reset'>
-                  Estetica intima
-                </a>
-              </p>
-              <p style={{color: '#dadada'}}>
-                <a href='#!' className='text-reset'>
-                  Redução da flacidez corporal
-                </a>
-              </p>            
               <p style={{color: '#dadada'}}>
                 <a href='#!' className='text-reset'>
                   Depilação a Laser
                 </a>
               </p>
+              <p style={{color: '#dadada'}}>
+                <a href='#!' className='text-reset'>
+                  Microagulhamento
+                </a>
+              </p>
+              <p style={{color: '#dadada'}}>
+                <a href='#!' className='text-reset'>
+                  Ultrassom: focalizado, microfocalizado e tradicional
+                </a>
+              </p>
+              <p style={{color: '#dadada'}}>
+                <a href='#!' className='text-reset'>
+                  Corrente Russa
+                </a>
+              </p>
+              <p style={{color: '#dadada'}}>
+                <a href='#!' className='text-reset'>
+                  Fototerapia
+                </a>
+              </p>
+             
             </MDBCol>
 
-            <MDBCol md='4' lg='3' xl='3' className='mx-auto mb-md-0 mb-4'>
+            <MDBCol md='3' lg='4' xl='4' className='mx-auto mb-md-0 mb-4'>
               <h6 className='text-uppercase fw-bold mb-4' style={{color: 'white'}}>Endereço</h6>
               <p style={{color: '#dadada'}}>
                 <MDBIcon color='dark' icon='home' className='me-2' />

@@ -5,6 +5,14 @@ const Container = styled.div`
     margin: 20px;
     max-height: 100vh;
 `
+const Tittle = styled.h5`
+  color: white; 
+  text-shadow: black 0.1em 0.1em 0.2em;
+`
+const Content = styled.p`
+  color: white; 
+  text-shadow: black 0.10em 0.2em 0.2em;
+`
 const Slider = () => {
   return (
     <div 
@@ -47,8 +55,8 @@ const Slider = () => {
             height='600px'
           />
         <div class="carousel-caption d-none d-md-block">
-        <h5 style={{color:'black'}}>Laser Day</h5>
-        <p style={{color:'black'}}>Depilação a laser, destinada as pessoas que buscam uma solução eficiente.</p>
+        <Tittle>Laser Day</Tittle>
+        <Content>Depilação a laser, destinada as pessoas que buscam uma solução eficiente.</Content>
       </div>
     </div>
 
@@ -61,8 +69,8 @@ const Slider = () => {
         height='600px'
       />
       <div class="carousel-caption d-none d-md-block">
-        <h5 style={{color:'black'}}>Lipomodelagem</h5>
-        <p style={{color:'black'}}>Escolha um tratamento significante na redução de gorduras localizadas, opte pela Lipomodelagem.</p>
+        <Tittle>Lipomodelagem</Tittle>
+        <Content>Escolha um tratamento significante na redução de gorduras localizadas, opte pela Lipomodelagem.</Content>
       </div>
     </div>
 
@@ -75,8 +83,8 @@ const Slider = () => {
         height='600px'  
       />
       <div class="carousel-caption d-none d-md-block">
-        <h5 style={{color:'black'}}>Skincare</h5>
-        <p style={{color:'black'}}>Ampliando seus resultados garantido uma pele do rosto macia e bem cuidada.</p>
+        <Tittle>Skincare</Tittle>
+        <Content>Ampliando seus resultados garantido uma pele do rosto macia e bem cuidada.</Content>
       </div>
     </div>
   </div>

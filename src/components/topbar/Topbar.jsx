@@ -37,7 +37,7 @@ const Topbar = () => {
               <a className="nav-link px-3" href="/">Página Inicial</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link px-3" href="#">Quem Somos</a>
+              <a className="nav-link px-3" href="/information">Quem Somos</a>
             </li>
             <li className="nav-item">
               <a className="nav-link px-3" href="#">Tratamentos</a>
