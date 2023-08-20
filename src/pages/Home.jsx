@@ -6,9 +6,9 @@ import Slider from '../components/slider/Slider'
 const Home = () => {
   return (
     <>
-      <Topbar />
-      <Slider />
-      <Footer />
+      <Topbar/>
+      <Slider/>
+      <Footer/>
     </>
   )
 }

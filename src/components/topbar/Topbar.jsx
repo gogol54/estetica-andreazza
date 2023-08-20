@@ -5,6 +5,7 @@ import styled from 'styled-components'
 const ImageBar = styled.img`
   width: 120px;
   height: 100px;
+  padding: 10px;
   @media (max-width: 540px) {
     width: 0px;
     height: 0px;
@@ -36,12 +37,31 @@ const Topbar = () => {
             <li className="nav-item active">
               <a className="nav-link px-3" href="/">Página Inicial</a>
             </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Tratamentos
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Peeling químico</a>
+                <a class="dropdown-item" href="#">Hidratação facial</a>
+                <a class="dropdown-item" href="#">Detox facial </a>
+                <a class="dropdown-item" href="#">Estimulação de colágenol</a>
+                <a class="dropdown-item" href="#">Lipomodelagem corporal</a>
+                
+                <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Depilação a laser</a>
+                  <a class="dropdown-item" href="#">Microagulhamento</a>
+                  <a class="dropdown-item" href="#">Ultrassom focalizado</a>
+                  <a class="dropdown-item" href="#">Ultrassom microfocalizado</a>
+                  <a class="dropdown-item" href="#">Ultrassom tradicional</a>
+                  <a class="dropdown-item" href="#">Corrente russa</a>
+                  <a class="dropdown-item" href="#">Fototerapia</a>
+                </div>
+            </li>
             <li className="nav-item">
               <a className="nav-link px-3" href="/information">Quem Somos</a>
             </li>
-            <li className="nav-item">
-              <a className="nav-link px-3" href="#">Tratamentos</a>
-            </li>
+            
             <li className="nav-item active">
               <a className="nav-link px-3" href="#">FAQs</a>
             </li>

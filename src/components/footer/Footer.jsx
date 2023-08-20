@@ -1,5 +1,6 @@
 import React from 'react';
 import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-kit';
+import './styles.css';
 
 export default function App() {
   return (
@@ -9,6 +10,11 @@ export default function App() {
       </section>
 
       <section className=''>
+        <div class="text-box">
+          <a href="https://api.whatsapp.com/send?phone=5555996817475&text=" class="btn btn-white btn-animate">
+            <i className="fab fa-whatsapp fa-2x"></i>
+          </a>
+        </div>
         <MDBContainer className='text-center text-md-start mt-5'>
           <MDBRow className='mt-3'>
             <MDBCol md='4' lg='4' xl='3' className='mx-auto mb-4'>
@@ -99,7 +105,6 @@ export default function App() {
               <p style={{color: '#dadada'}}>
                 <MDBIcon color='dark' icon='phone' className='me-3' /> +55 55 99681-7475 
               </p>
-             
             </MDBCol>
           </MDBRow>
         </MDBContainer>
