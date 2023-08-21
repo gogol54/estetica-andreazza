@@ -89,14 +89,14 @@ const Info = () => {
           </center>
           <GridTop>
             <TextBox>
-              <h4><center>Nossa História</center></h4>
+              <h4><center>Explore Nossa Jornada e Dedicação</center></h4>
               <p>
                 Nossa jornada começou há 3 anos, quando a fundadora e proprietária, Antonia Andreazza, reconhecendo a necessidade de um espaço 
                 que oferecesse tratamentos estéticos inovadores e personalizados, decidiu transformar sua paixão em uma realidade palpável. 
                 Sua formação acadêmica sólida, aliada à sua visão empreendedora, possibilitou a criação da Clínica. Somando-se a isto determinada
                 experiência, a mente por trás da Clínica é uma profissional altamente qualificada, possuindo uma pós-graduação em Estética 
                 Clínica. 
-                Com um compromisso inabalável diate as atualizações constantes das práticas e tendências mais recentes,
+                Com um compromisso inabalável diante as atualizações constantes das práticas e tendências mais recentes,
                 ofertando a todos os clientes tratamentos de última geração, com resultados visíveis e
                 duradouros.
                 
@@ -107,9 +107,8 @@ const Info = () => {
             <BoxShad>
               <TextBox><br /> <br />
                 <p>
-                  <h4><center>Explore Nossa Jornada e Dedicação: Bem-Vindo(a) à Clínica de Estética Antonia Andreazza</center></h4>
-                  Completando três anos de excelência em cuidados estéticos, nos 
-                  orgulhamos de ser uma referência no setor de beleza e bem-estar de Rosário do Sul. A clínica se destaca por oferecer 
+                  <h4><center>Bem-Vindo(a) à Clínica de Estética Antonia Andreazza</center></h4>
+                  Nos orgulhamos de ser uma referência no setor de beleza e bem-estar de Rosário do Sul. A clínica se destaca por oferecer 
                   serviços que vão além da superfície, promovendo a harmonia entre corpo, mente e alma.
                 </p>
               </TextBox>
