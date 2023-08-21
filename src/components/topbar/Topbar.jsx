@@ -59,14 +59,14 @@ const Topbar = () => {
                 </div>
             </li>
             <li className="nav-item">
-              <a className="nav-link px-3" href="/information">Quem Somos</a>
+              <a className="nav-link px-3" href="/info">Quem Somos</a>
             </li>
             
             <li className="nav-item active">
               <a className="nav-link px-3" href="#">FAQs</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link px-3" href="#">Agende</a>
+              <a className="nav-link px-3" href="/agendamentos">Agende</a>
             </li>
           </ul>
           <ul className="navbar-nav flex-row">

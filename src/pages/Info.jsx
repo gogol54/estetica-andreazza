@@ -48,17 +48,6 @@ const ImageTop = styled.img`
   height: 600px;
   object-fit: cover;
 `
-
-const ImageFooter = styled.img`
-  margin-left: 20px;
-  flex: 2;
-  padding: 10px;
-  border-radius: 20px 120px 0px 10px;
-  width: 250px;
-  height: 600px;
-  object-fit: cover;
-`
-
 const GridTop = styled.div`
   display: flex;
   flex-wrap: wrap;
@@ -165,6 +154,7 @@ const Info = () => {
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d215.3959645328967!2d-54.920282952961585!3d-30.256022509545236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9500e7da9df3b2b9%3A0x7697bfe551f17945!2sAntonia%20Andreazza%20Cl%C3%ADnica%20Est%C3%A9tica!5e0!3m2!1spt-BR!2sbr!4v1692508038626!5m2!1spt-BR!2sbr" 
             width="100%" 
             height="450" 
+            title='mapa com localidade'
             style={{border:'2px solid transparent', borderRadius: '10px', marginBottom: '15px'}}
             allowfullscreen="true" 
             loading="lazy" 

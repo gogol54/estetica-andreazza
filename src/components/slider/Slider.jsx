@@ -1,10 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const Container = styled.div`
-    margin: 20px;
-    max-height: 100vh;
-`
 const Tittle = styled.h5`
   color: white; 
   text-shadow: black 0.1em 0.1em 0.2em;
@@ -19,7 +15,6 @@ const Slider = () => {
       id="carouselBasicExample" 
       class="carousel slide carousel-fade" 
       data-mdb-ride="carousel" 
-      style={{marginTop: '125px'}} 
     >
       <div class="carousel-indicators">
         <button
