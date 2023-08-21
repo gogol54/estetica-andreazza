@@ -5,17 +5,23 @@ import styled from 'styled-components'
 
 const Container = styled.div`
   margin-top: 120px;
+  @media (max-width: 540px) {
+    margin-top: 70px;
+  }
 `
 const BoxShad = styled.div`
   flex: 2;
   width: auto;
   height: auto;
   border-radius: 100px 0px 100px 0px;
-  margin-top: 160px;
+  margin-top: 130px;
   margin-bottom: 20px;
   -webkit-box-shadow: 2px 10px 29px -4px rgba(150,110,57,0.67);
   -moz-box-shadow: 2px 10px 29px -4px rgba(150,110,57,0.67);
   box-shadow: 2px 10px 29px -4px rgba(150,110,57,0.67);
+  @media (max-width: 540px) {
+    margin-top: 10px;
+  }
 `
 const BoxShadDown = styled.div`
   flex: 2;
@@ -160,7 +166,7 @@ const Info = () => {
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d215.3959645328967!2d-54.920282952961585!3d-30.256022509545236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9500e7da9df3b2b9%3A0x7697bfe551f17945!2sAntonia%20Andreazza%20Cl%C3%ADnica%20Est%C3%A9tica!5e0!3m2!1spt-BR!2sbr!4v1692508038626!5m2!1spt-BR!2sbr" 
             width="100%" 
             height="450" 
-            style={{border:'2px solid transparent', borderRadius: '10px'}}
+            style={{border:'2px solid transparent', borderRadius: '10px', marginBottom: '15px'}}
             allowfullscreen="true" 
             loading="lazy" 
             referrerpolicy="no-referrer-when-downgrade">  
