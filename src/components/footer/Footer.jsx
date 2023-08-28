@@ -11,7 +11,7 @@ export default function App() {
 
       <section className=''>
         <div class="text-box">
-          <a href="https://api.whatsapp.com/send?phone=5555996817475&text=" class="btn btn-white btn-animate">
+          <a href="https://api.whatsapp.com/send?phone=5555996817475&text=" className="btn btn-white btn-animate">
             <i className="fab fa-whatsapp fa-2x"></i>
           </a>
         </div>

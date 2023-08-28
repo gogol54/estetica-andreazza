@@ -63,7 +63,7 @@ const Topbar = () => {
             </li>
             
             <li className="nav-item active">
-              <a className="nav-link px-3" href="#">FAQs</a>
+              <a className="nav-link px-3" href="/faqs">FAQs</a>
             </li>
             <li className="nav-item">
               <a className="nav-link px-3" href="/agendamentos">Agende</a>

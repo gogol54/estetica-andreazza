@@ -115,7 +115,7 @@ const Info = () => {
             <BoxShadDown>
               <TextBox><br /> <br />
                 <p><h4><center>Missão e Valores</center></h4>
-                  Nossa missão é elevar a autoestima e o bem-estar de cada cliente, proporcionando experiências estéticas que vão além da superfície. 
+                  A missão da clínica é elevar a autoestima e o bem-estar de cada cliente, proporcionando experiências estéticas que vão além da superfície. 
                   Acreditamos que a verdadeira beleza emana de dentro para fora, e é por isso que oferecemos
                   um ambiente acolhedor e profissional, onde os clientes podem relaxar e confiar em nossos serviços para atingir seus objetivos estéticos.
                 </p>
