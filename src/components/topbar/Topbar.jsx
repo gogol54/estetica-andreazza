@@ -45,7 +45,7 @@ const Topbar = () => {
                 <a class="dropdown-item" href="#">Peeling químico</a>
                 <a class="dropdown-item" href="#">Hidratação facial</a>
                 <a class="dropdown-item" href="#">Detox facial </a>
-                <a class="dropdown-item" href="#">Estimulação de colágenol</a>
+                <a class="dropdown-item" href="#">Estimulação de colágeno</a>
                 <a class="dropdown-item" href="#">Lipomodelagem corporal</a>
                 
                 <div class="dropdown-divider"></div>
@@ -55,6 +55,7 @@ const Topbar = () => {
                   <a class="dropdown-item" href="#">Ultrassom microfocalizado</a>
                   <a class="dropdown-item" href="#">Ultrassom tradicional</a>
                   <a class="dropdown-item" href="#">Corrente russa</a>
+                  <a class="dropdown-item" href="#">Radiofrequência</a>
                   <a class="dropdown-item" href="#">Fototerapia</a>
                 </div>
             </li>
