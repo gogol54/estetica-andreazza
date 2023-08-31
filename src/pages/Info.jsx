@@ -110,7 +110,6 @@ const Info = () => {
             />
           </GridTop>
 
-
           <GridTop>
             <BoxShadDown>
               <TextBox><br /> <br />
