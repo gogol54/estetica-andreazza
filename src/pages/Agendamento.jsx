@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Topbar from '../components/topbar/Topbar'
 import Footer from '../components/footer/Footer'
 import {
@@ -6,9 +6,6 @@ import {
   MDBRow,
   MDBCol,
   MDBIcon,
-  MDBCheckbox,
-  MDBInput,
-  MDBTextArea,
 }
 from 'mdb-react-ui-kit';
 import styled from 'styled-components'
@@ -24,48 +21,6 @@ const BGwhats = styled.div`
   background-color: #265c54;
   width: 100%;
   padding: 10px;
-`
-const ButtonDiv = styled.div`
-  width: 100%;
-  align-content: center;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid gray;
-`
-const Alink = styled.a`
-  display: block;
-  height: 40px;
-  line-height: 40px;
-  font-size: 18px;
-  font-family: sans-serif;
-  text-decoration: none;
-  color: #926e45;
-  border: 0.5px solid #926e45;
-  letter-spacing: 2px;
-  text-align: center;
-  position: relative;
-  transition: all .35s;
-  span{
-    position: relative;
-    z-index: 2;
-  }
-  :after{
-    position: absolute;
-    content: "";
-    top: 0;
-    left: 0;
-    width: 0;
-    height: 100%;
-    background: #eadfdb;
-    transition: all .35s;
-  }
-  :hover{
-    color: #fff;
-    text-decoration: none;
-  }
-  :hover::after{
-    width: 100%;
-  }
 `
 const BTNwpp = styled.div`
   align-content: center;
@@ -89,7 +44,15 @@ const Title = styled.h3`
   font-family: 'Reenie Beanie', cursive;
   font-size: 30px;
 `
+//
 function Agendamento() {
+  const [name, setName] = useState('indefinido')
+  const [mail, setMail] = useState('indefinido')
+  const [number, setNumber] = useState('indefinido')
+  console.log(name)
+  console.log(mail)
+  console.log(number)
+  let message = 'Oi!%20sou%20a(o)%20'+name+',%0A'+mail+',%0A(55)%20'+number+'.%0AGostaria%20de%20saber%20mais%20informações.%20'
   return (
     <>
     <Topbar />
@@ -139,10 +102,41 @@ function Agendamento() {
                       Olá, sejam bem vindos(as), como posso ajudar?
                     </label>
                   </BGwhats>
-                  <input  placeholder='Nome' style={{backgroundColor:'white', width:'90%', marginTop:'20px', borderRadius:'5px', padding:'5px', border:'1px solid #dadada'}} />
-                  <input  placeholder='Email' style={{backgroundColor:'white', width:'90%', marginTop:'20px', borderRadius:'5px', padding:'5px', border:'1px solid #dadada'}} />
-                  <input  placeholder='Telefone' style={{backgroundColor:'white', width:'90%', marginTop:'20px', borderRadius:'5px',padding:'5px', border:'1px solid #dadada'}} />
-                  <a href="https://api.whatsapp.com/send?phone=5555996817475&text=" style={{textDecoration: 'none'}}>
+                  <input  
+                    placeholder='Nome' 
+                    type='text'
+                    onChange={(e) => setName(e.target.value)}
+                    style={{
+                      backgroundColor:'white', 
+                      width:'90%', 
+                      marginTop:'20px', 
+                      borderRadius:'5px', 
+                      padding:'5px', 
+                      border:'1px solid #dadada'}} 
+                  />
+                  <input  
+                    placeholder='Email' 
+                    onChange={(e) => setMail(e.target.value)}
+                    style={{
+                      backgroundColor:'white', 
+                      width:'90%', 
+                      marginTop:'20px', 
+                      borderRadius:'5px', 
+                      padding:'5px', 
+                      border:'1px solid #dadada'}} 
+                  />
+                  <input  
+                    placeholder='Telefone' 
+                    onChange={(e) => setNumber(e.target.value)}
+                    style={{
+                      backgroundColor:'white', 
+                      width:'90%', 
+                      marginTop:'20px', 
+                      borderRadius:'5px',
+                      padding:'5px', 
+                      border:'1px solid #dadada'}} 
+                  />
+                  <a href={"https://api.whatsapp.com/send?phone=555596817475&text="+message} style={{textDecoration: 'none'}}>                    
                     <BTNwpp className=" mb-4" >
                       Iniciar conversa
                     </BTNwpp>
