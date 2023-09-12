@@ -11,6 +11,7 @@ const Container = styled.div`
     margin-top: 70px;
   }
 `
+
 const Home = () => {
   return (
     <>

@@ -1,3 +1,8 @@
+import styled from 'styled-components'
+
+const Text = styled.div`
+	margin: 10px;
+`
 export const dataset = []
 const tag = (
 	<>
@@ -8,6 +13,7 @@ const tag = (
 )
 
 const peeling = (
+	<Text>
 	<p>
 		O peeling químico é um procedimento estético que visa melhorar a aparência da pele por meio da aplicação controlada de substâncias químicas. 
 		Existem diferentes tipos de peeling químico, variando em intensidade e nos resultados desejados.
@@ -22,6 +28,7 @@ const peeling = (
 		Depois da aplicação, a pele pode ficar avermelhada e descamar nos dias seguintes, dependendo da profundidade do peeling. É essencial seguir as instruções do profissional e usar protetor solar para proteger a pele durante a recuperação.
 		O peeling químico funciona removendo camadas danificadas da pele e estimulando a produção de colágeno, resultando em uma pele mais fresca, suave e com menos imperfeições. O tipo de peeling escolhido dependerá das necessidades individuais da pele e dos objetivos estéticos. É importante consultar um profissional qualificado para determinar a melhor abordagem e realizar o procedimento com segurança.
 	</p>
+	</Text>
 )
 
 const hidratacao = (
@@ -368,78 +375,91 @@ export const faq = [
 
 export const treatments = [
 	{
+    id: 0,
 		name: 'Peeling Químico',
 		description: 'O peeling é a remoção de camadas superficiais da pele que busca promover a renovação celular e melhorar a aparência da pele',
 		src: 'https://firebasestorage.googleapis.com/v0/b/facilitastorage.appspot.com/o/antonia%2Fcards%2Fpeeling.png?alt=media&token=703138ed-4b3c-4471-9e05-f91615a28615',
 		message: peeling,
 	},
 	{
+    id: 1,
 		name: 'Hidratação Facial',
 		description: 'A hidratação facial é um procedimento que repõe a umidade na pele, ajudando a mantê-la saudável, suave e com aparência mais jovem.',
 		src: 'https://firebasestorage.googleapis.com/v0/b/facilitastorage.appspot.com/o/antonia%2Fcards%2Fhidrata%C3%A7ao.png?alt=media&token=b8a7db2e-ff6a-4197-8f50-2de7e81b0651',
 		message: hidratacao,
 	},
 	{
+    id: 2,
 		name: 'Detox Facial',
 		description: 'O detox facial é um tratamento que visa remover impurezas da pele, desobstruir os poros e revitalizar a tez, promovendo uma aparência mais radiante e saudável.',
-		src: 'https://firebasestorage.googleapis.com/v0/b/facilitastorage.appspot.com/o/antonia%2Fcards%2Faesthetic.png?alt=media&token=97141d66-feed-423b-ab98-572f3f2b7d8b',
+		src: 'https://firebasestorage.googleapis.com/v0/b/facilitastorage.appspot.com/o/antonia%2Fcards%2Fmascara.png?alt=media&token=19068a86-a4e7-48ff-a664-5bb2fc83de8f',
 		message: detox,
 	},
 	{
+    id: 3,
 		name: 'Estimulação de Colágeno',
 		description: 'A estimulação de colágeno é um processo que visa promover a produção natural de colágeno na pele, melhorando sua firmeza, elasticidade e aparência geral.',
 		src: 'https://firebasestorage.googleapis.com/v0/b/facilitastorage.appspot.com/o/antonia%2Fcards%2Festcolageno.png?alt=media&token=15825908-28c1-4850-836a-f0e29a0c34fc',
 		message: colageno,
 	},
 	{
+    id: 4,
 		name: 'Lipomodelagem Corporal',
 		description: 'A lipomodelagem corporal é um procedimento estético que visa remodelar áreas do corpo, reduzindo o acúmulo de gordura localizada e melhorando a silhueta.',
 		src: 'https://firebasestorage.googleapis.com/v0/b/facilitastorage.appspot.com/o/antonia%2Fcards%2Flipo.png?alt=media&token=d3b9a942-8afb-4a36-adba-0762133e8ac9',
 		message: lipo,
 	},
 	{
+    id: 5,
 		name: 'Depilação a Laser',
 		description: 'A depilação a laser é um procedimento estético que utiliza pulsos de laser para remover permanentemente os pelos, impedindo o crescimento futuro.',
 		src: 'https://firebasestorage.googleapis.com/v0/b/facilitastorage.appspot.com/o/antonia%2Fcards%2Flaser.png?alt=media&token=2f063c66-a295-41d8-b550-299c3fa9a0bc',
 		message: laser
 	},
 	{
+    id: 6,
 		name: 'Microagulhamento',
 		description: 'O microagulhamento é um procedimento estético que utiliza pequenas agulhas para criar microperfurações na pele, estimulando a produção de colágeno e melhorando a textura e a aparência da pele.',
-		src: '',
+		src: 'https://firebasestorage.googleapis.com/v0/b/facilitastorage.appspot.com/o/antonia%2Fcards%2Fmicroagulhas.jpg?alt=media&token=d2dc55f4-6057-4aec-970e-2ac20583dcb3',
 		message: microagulhamento
 	},
 	{
+    id: 7,
 		name: 'Ultrassom Focalizado',
 		description: 'O ultrassom focalizado é um procedimento estético que utiliza ondas de ultrassom de alta intensidade para estimular o colágeno e melhorar a firmeza da pele, geralmente usado para tratamentos de flacidez e rejuvenescimento facial ou corporal.',
-		src: '',
+		src: 'https://firebasestorage.googleapis.com/v0/b/facilitastorage.appspot.com/o/antonia%2Fcards%2Ffocalizado.jpg?alt=media&token=1818136c-3b89-4cbd-a455-d4f6746aa593',
 		message: focalizado
 	},
 	{
+    id: 8,
 		name: 'Ultrassom Microfocalizado',
 		description: 'O ultrassom microfocalizado, diferentemente do focalizado, também emprega ondas de ultrassom de alta frequência, pórem este, em baixa intensidade. Ampliando a estimulação do colágeno, e visando aprimorar a textura e o rejuvenescimento facial.',
-		src: '',
+		src: 'https://firebasestorage.googleapis.com/v0/b/facilitastorage.appspot.com/o/antonia%2Fcards%2FPrincipal-microfocado.jpg?alt=media&token=1d30067e-41fa-4f13-8892-e76de8246a76',
 		message: microfocalizado
 	},
 	{
+    id: 9,
 		name: 'Ultrassom Tradicional',
 		description: 'Tecnologia que utiliza ondas sonoras de alta frequência para visualizar órgãos internos e tecidos do corpo.',
-		src: '',
+		src: 'https://firebasestorage.googleapis.com/v0/b/facilitastorage.appspot.com/o/antonia%2Fcards%2Ftradicional.png?alt=media&token=22125939-3b3c-4341-8557-4afca27f3ac0',
 		message: ultrassom
 	},
 	{
+    id: 10,
 		name: 'Corrente Russa',
 		description: 'A corrente russa é um tratamento estético que utiliza correntes elétricas de baixa frequência para estimular os músculos, auxiliando na tonificação e firmeza corporal.',
 		src: 'https://firebasestorage.googleapis.com/v0/b/facilitastorage.appspot.com/o/antonia%2Fcards%2Fcorrente.png?alt=media&token=975c51f5-b1ca-4b74-ac2f-058e94ad9cf8',
 		message: corrente
 	},
 	{
+    id: 11,
 		name: 'Radiofrequência',
 		description: 'A radiofrequência é um procedimento estético que utiliza energia de radiofrequência para aquecer as camadas profundas da pele, estimulando a produção de colágeno e melhorando a firmeza e a textura da pele.',
 		src: 'https://firebasestorage.googleapis.com/v0/b/facilitastorage.appspot.com/o/antonia%2Fcards%2Fradiofrequencia.png?alt=media&token=74e0f6be-125c-4447-8928-45a31003836f',
 		message: radiofrequencia
 	},
 	{
+    id: 12,
 		name: 'Fototerapia',
 		description: 'A fototerapia é um tratamento que utiliza luz visível ou luz infravermelha para tratar condições de pele, como acne, psoríase ou rejuvenescimento facial, estimulando processos de cura e regeneração.',
 		src: 'https://firebasestorage.googleapis.com/v0/b/facilitastorage.appspot.com/o/antonia%2Fcards%2Ffototerapia.jpg?alt=media&token=715ce0f1-775a-46f0-8b61-411a49a12cb8',

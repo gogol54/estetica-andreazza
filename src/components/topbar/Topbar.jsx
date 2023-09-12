@@ -1,5 +1,6 @@
 import './topbar.css'
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
 import styled from 'styled-components'
 
 const ImageBar = styled.img`
@@ -12,6 +13,10 @@ const ImageBar = styled.img`
   }
 `
 const Topbar = () => {
+  const history = useNavigate()
+  const verify = (info) => {
+    history("/treatments",{ state: { data: info } })
+  }
   return (
     <nav className="navbar navbar-expand-lg fixed-top navbar-scroll shadow-0" style={{backgroundColor: '#EADFDB', color:'#966D39', marginBottom: '30px'}}>
       <div className="container">
@@ -42,21 +47,20 @@ const Topbar = () => {
                 Tratamentos
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Peeling químico</a>
-                <a class="dropdown-item" href="#">Hidratação facial</a>
-                <a class="dropdown-item" href="#">Detox facial </a>
-                <a class="dropdown-item" href="#">Estimulação de colágeno</a>
-                <a class="dropdown-item" href="#">Lipomodelagem corporal</a>
-                
+                <a class="dropdown-item" onClick={() => verify(0)} style={{cursor:'pointer'}}>Peeling químico</a>
+                <a class="dropdown-item" onClick={() => verify(1)} style={{cursor:'pointer'}}>Hidratação facial</a>
+                <a class="dropdown-item" onClick={() => verify(2)} style={{cursor:'pointer'}}>Detox facial </a>
+                <a class="dropdown-item" onClick={() => verify(3)} style={{cursor:'pointer'}}>Estimulação de colágeno</a>
+                <a class="dropdown-item" onClick={() => verify(4)} style={{cursor:'pointer'}}>Lipomodelagem corporal</a>
                 <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Depilação a laser</a>
-                  <a class="dropdown-item" href="#">Microagulhamento</a>
-                  <a class="dropdown-item" href="#">Ultrassom focalizado</a>
-                  <a class="dropdown-item" href="#">Ultrassom microfocalizado</a>
-                  <a class="dropdown-item" href="#">Ultrassom tradicional</a>
-                  <a class="dropdown-item" href="#">Corrente russa</a>
-                  <a class="dropdown-item" href="#">Radiofrequência</a>
-                  <a class="dropdown-item" href="#">Fototerapia</a>
+                  <a class="dropdown-item" onClick={() => verify(5)} style={{cursor:'pointer'}}>Depilação a laser</a>
+                  <a class="dropdown-item" onClick={() => verify(6)} style={{cursor:'pointer'}}>Microagulhamento</a>
+                  <a class="dropdown-item" onClick={() => verify(7)} style={{cursor:'pointer'}}>Ultrassom focalizado</a>
+                  <a class="dropdown-item" onClick={() => verify(8)} style={{cursor:'pointer'}}>Ultrassom microfocalizado</a>
+                  <a class="dropdown-item" onClick={() => verify(9)} style={{cursor:'pointer'}}>Ultrassom tradicional</a>
+                  <a class="dropdown-item" onClick={() => verify(10)} style={{cursor:'pointer'}}>Corrente russa</a>
+                  <a class="dropdown-item" onClick={() => verify(11)} style={{cursor:'pointer'}}>Radiofrequência</a>
+                  <a class="dropdown-item" onClick={() => verify(12)} style={{cursor:'pointer'}}>Fototerapia</a>
                 </div>
             </li>
             <li className="nav-item">

@@ -37,7 +37,6 @@ const BTNwpp = styled.div`
   margin: auto;
   
 `
-
 const Title = styled.h3`
   color: #966D39;
   font-weight: 400px;
@@ -49,9 +48,7 @@ function Agendamento() {
   const [name, setName] = useState('indefinido')
   const [mail, setMail] = useState('indefinido')
   const [number, setNumber] = useState('indefinido')
-  console.log(name)
-  console.log(mail)
-  console.log(number)
+
   let message = 'Oi!%20sou%20a(o)%20'+name+',%0A'+mail+',%0A(55)%20'+number+'.%0AGostaria%20de%20saber%20mais%20informações.%20'
   return (
     <>

@@ -2,7 +2,7 @@ import React from 'react';
 import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-kit';
 import './styles.css';
 
-export default function App() {
+export default function Footer() {
   return (
     <MDBFooter style={{backgroundColor: '#966D39', color: 'white'}} className='text-center text-lg-start text-muted'>
       <section className='d-flex justify-content-center justify-content-lg-between p-4 border-bottom' style={{backgroundColor: '#966D39', color: 'white'}}>

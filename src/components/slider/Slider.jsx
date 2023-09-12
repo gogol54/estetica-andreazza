@@ -14,6 +14,18 @@ const ImageBG = styled.img`
   width: 900px;
   height: 600px;
 `
+/*
+  "Descubra a beleza que existe em você."
+  "Transforme sua aparência, transforme sua vida."
+  "Realce sua essência, revele sua beleza."
+  "Crie um visual que conte sua história."
+  "A elegância é atemporal."
+  "A arte da beleza está ao seu alcance."
+  "Explore seu potencial de beleza."
+  "Dê vida ao seu estilo."
+  "Sinta-se bonito(a) todos os dias."
+  "Desperte a confiança que existe dentro de você."
+*/
 
 const Slider = () => {
   return (
