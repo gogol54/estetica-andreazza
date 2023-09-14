@@ -16,7 +16,8 @@ const Topbar = () => {
   const history = useNavigate()
   const verify = (info) => {
     history("/treatments",{ state: { data: info }})
-    window.location.reload(true)
+    window.location.reload(true) 
+    window.scrollTo(0,0)
   }
   return (
     <nav className="navbar navbar-expand-lg fixed-top navbar-scroll shadow-0" style={{backgroundColor: '#EADFDB', color:'#966D39', marginBottom: '30px'}}>

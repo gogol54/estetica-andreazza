@@ -63,6 +63,7 @@ export default function Card({dataset}) {
   const redirect = (value) => {
     history("/treatments",{ state: { data: value } })
     window.location.reload(true)
+    window.scrollTo(0,0)
   }
   return (
     <Container className='container'>
