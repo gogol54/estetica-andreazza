@@ -15,7 +15,8 @@ const ImageBar = styled.img`
 const Topbar = () => {
   const history = useNavigate()
   const verify = (info) => {
-    history("/treatments",{ state: { data: info } })
+    history("/treatments",{ state: { data: info }})
+    window.location.reload(true)
   }
   return (
     <nav className="navbar navbar-expand-lg fixed-top navbar-scroll shadow-0" style={{backgroundColor: '#EADFDB', color:'#966D39', marginBottom: '30px'}}>
