@@ -2,6 +2,10 @@ import styled from 'styled-components'
 
 const Text = styled.div`
 	margin: 10px;
+	font-family: 'Montserrat', sans-serif !important;
+	font-weight: 100;
+	font-size: 14px;
+	color: #745f32;
 `
 export const dataset = []
 const tag = (
@@ -18,12 +22,13 @@ const peeling = (
 		O peeling químico é um procedimento estético que visa melhorar a aparência da pele por meio da aplicação controlada de substâncias químicas. 
 		Existem diferentes tipos de peeling químico, variando em intensidade e nos resultados desejados.
 		Os principais tipos de peeling químico são:
+	</p>
 		<ul>
 			<li>Superficial: Este tipo de peeling usa ácidos suaves, como ácido glicólico ou ácido salicílico, para esfoliar a camada mais externa da pele. É usado para tratar manchas superficiais, textura irregular e acne leve. O procedimento é rápido e geralmente não requer tempo de recuperação significativo.</li>
 			<li>Médio: Peeling químico médio utiliza ácidos mais fortes, como o ácido tricloroacético (TCA). Ele penetra mais profundamente na pele e é eficaz no tratamento de rugas finas, manchas solares e textura irregular. A recuperação é um pouco mais longa, com a pele descamando nos dias seguintes.</li>
 			<li>Profundo: Esse tipo de peeling químico envolve o uso de ácido carbólico ou fenol. Ele é capaz de tratar rugas profundas, cicatrizes de acne e danos mais graves na pele. A recuperação é mais longa e requer cuidados especiais, incluindo repouso e proteção solar rigorosa.</li>
 		</ul>
-
+	<p>
 		O procedimento de peeling químico geralmente começa com a limpeza da pele para remover maquiagem e impurezas. Em seguida, a solução química apropriada é aplicada na pele, de acordo com o tipo de peeling escolhido. Durante a aplicação, é comum sentir uma sensação de formigamento ou ardor, que pode ser controlada com o uso de ventiladores ou compressas frias.
 		Depois da aplicação, a pele pode ficar avermelhada e descamar nos dias seguintes, dependendo da profundidade do peeling. É essencial seguir as instruções do profissional e usar protetor solar para proteger a pele durante a recuperação.
 		O peeling químico funciona removendo camadas danificadas da pele e estimulando a produção de colágeno, resultando em uma pele mais fresca, suave e com menos imperfeições. O tipo de peeling escolhido dependerá das necessidades individuais da pele e dos objetivos estéticos. É importante consultar um profissional qualificado para determinar a melhor abordagem e realizar o procedimento com segurança.
@@ -32,6 +37,7 @@ const peeling = (
 )
 
 const hidratacao = (
+	<Text>
 	<p>
 		A hidratação facial é um procedimento estético que visa restaurar a umidade da pele do rosto, melhorando sua saúde e aparência. 
 		Geralmente, envolve as seguintes etapas:
@@ -48,28 +54,38 @@ const hidratacao = (
 			barreira de umidade natural da pele. A frequência recomendada para esse procedimento varia de acordo com o tipo de pele e as necessidades
 			individuais,visite-nos para discutirmos um plano de tratamento exclusivo para você.
 	</p>
+	</Text>
 )
 
 const detox = (
+	<Text>
 	<p>
 		O detox facial é um procedimento estético que visa revitalizar a pele do rosto, eliminando impurezas e promovendo uma aparência mais saudável.
 		Geralmente, envolve as seguintes etapas:
-		<ul>
-			<li>Limpeza Profunda: Inicia-se com uma limpeza minuciosa da pele, removendo maquiagem, oleosidade e impurezas acumuladas.</li>
-			<li>Esfoliação: Em alguns casos, é realizada uma esfoliação suave para eliminar células mortas e desobstruir os poros, preparando a pele para os próximos passos.</li>
-			<li>Aplicação da Máscara Detox: Uma máscara facial detoxificante é aplicada uniformemente na pele. Essas máscaras contêm ingredientes como argila, carvão ativado ou outros componentes que ajudam a absorver impurezas da pele.</li>
-			<li>Tempo de Repouso: A máscara é deixada na pele por um período determinado, permitindo que seus componentes ativos atuem na desintoxicação e purificação da pele.</li>
-			<li>Remoção da Máscara: Após o tempo de repouso, a máscara é cuidadosamente removida, geralmente com água morna ou um pano úmido.</li>
-			<li>Hidratação: Para finalizar, um hidratante leve ou sérum é aplicado para reidratar a pele, restaurando sua umidade e deixando-a com um aspecto saudável.</li>
-			<li>Pós-tratamento: Após o procedimento, é aconselhável evitar exposição solar direta e usar protetor solar. Manter uma rotina de cuidados com a pele adequada ajuda a prolongar os efeitos do detox facial.</li>
+		<ul list-group>
+			<li> 
+				<strong>Limpeza Profunda:</strong> 
+				Inicia-se com uma limpeza minuciosa da pele, removendo maquiagem, oleosidade e impurezas acumuladas.
+			</li>
+			<li>
+				<strong>Esfoliação:</strong> 
+				Em alguns casos, é realizada uma esfoliação suave para eliminar células mortas e desobstruir os poros, preparando a pele para os próximos passos.
+			</li>
+			<li >Aplicação da Máscara Detox: Uma máscara facial detoxificante é aplicada uniformemente na pele. Essas máscaras contêm ingredientes como argila, carvão ativado ou outros componentes que ajudam a absorver impurezas da pele.</li>
+			<li >Tempo de Repouso: A máscara é deixada na pele por um período determinado, permitindo que seus componentes ativos atuem na desintoxicação e purificação da pele.</li>
+			<li >Remoção da Máscara: Após o tempo de repouso, a máscara é cuidadosamente removida, geralmente com água morna ou um pano úmido.</li>
+			<li >Hidratação: Para finalizar, um hidratante leve ou sérum é aplicado para reidratar a pele, restaurando sua umidade e deixando-a com um aspecto saudável.</li>
+			<li >Pós-tratamento: Após o procedimento, é aconselhável evitar exposição solar direta e usar protetor solar. Manter uma rotina de cuidados com a pele adequada ajuda a prolongar os efeitos do detox facial.</li>
 		</ul>
 		O detox facial funciona removendo impurezas, excesso de oleosidade e células mortas, revitalizando a pele e proporcionando uma sensação 
 		de frescor. A escolha dos produtos e ingredientes utilizados pode variar dependendo do tipo de pele e das necessidades individuais. 
 		É importante consultar um profissional de estética para determinar a melhor abordagem para o seu caso específico.
 	</p>
+	</Text>
 )
 
 const colageno = (
+	<Text>
 	<p>
 		A estimulação de colágeno é um procedimento estético que visa melhorar a firmeza e a elasticidade da pele, reduzir rugas e linhas finas 
 		e promover uma aparência mais jovem. Geralmente, envolve as seguintes etapas e produtos:
@@ -88,8 +104,10 @@ const colageno = (
 		A consulta com um profissional qualificado é importante para determinar a abordagem mais adequada e os produtos apropriados para 
 		o tipo de pele do paciente.
 	</p>
+	</Text>
 )
 const lipo = (
+	<Text>
 	<p>
 		A lipomodelagem corporal é um procedimento estético voltado para a remodelação e a redução de medidas em áreas específicas do corpo. 
 		Geralmente, envolve as seguintes etapas:
@@ -108,8 +126,10 @@ const lipo = (
 		o tratamento mais adequado às necessidades individuais.
 
 	</p>
+	</Text>
 )
 const laser = (
+	<Text>
 	<p>
 		A depilação a laser é um procedimento estético amplamente utilizado para a remoção permanente ou duradoura dos pelos indesejados. 
 		Aqui estão os principais aspectos do procedimento:
@@ -129,8 +149,10 @@ const laser = (
 		necessidades individuais.
 
 	</p>
+	</Text>
 )
 const microagulhamento = (
+	<Text>
 	<p>
 		O microagulhamento estético é um procedimento que visa melhorar a textura da pele, reduzir rugas, cicatrizes, estrias e promover 
 		a produção de colágeno. Aqui está uma descrição detalhada do procedimento:
@@ -149,8 +171,10 @@ const microagulhamento = (
 		resultados e minimizar os riscos de complicações. Consultar um profissional qualificado em estética é fundamental para determinar 
 		a abordagem mais adequada às suas necessidades individuais.
 	</p>
+	</Text>
 )
 const focalizado = (
+	<Text>
 	<p>
 		O ultrassom focalizado é um procedimento estético que utiliza ondas de ultrassom de alta intensidade para promover o rejuvenescimento 
 		da pele e a melhoria da firmeza em áreas específicas do corpo. Aqui estão detalhes sobre a aplicação, tipos de produtos e funcionamento 
@@ -172,8 +196,10 @@ const focalizado = (
 		e para receber orientações sobre o tratamento específico para sua pele.
 
 	</p>
+	</Text>
 )
 const microfocalizado = (
+	<Text>
 	<p>
 		O ultrassom microfocalizado é um procedimento estético avançado que utiliza ondas de ultrassom de alta frequência e baixa intensidade 
 		para promover o rejuvenescimento da pele e melhorar a firmeza em áreas específicas. Aqui estão detalhes sobre a aplicação, as principais
@@ -198,8 +224,10 @@ const microfocalizado = (
 		um procedimento menos invasivo em comparação com outras tecnologias. Como em qualquer procedimento estético, é importante 
 		consultar um profissional qualificado em estética para determinar a adequação do tratamento às suas necessidades individuais.
 	</p>
+	</Text>
 )
 const ultrassom = (
+	<Text>
 	<p>
 		O ultrassom tradicional é um procedimento estético que utiliza ondas de ultrassom de baixa intensidade para estimular a produção 
 		de colágeno e melhorar a firmeza da pele. Aqui estão detalhes sobre a aplicação, os tipos de produtos associados e como funciona 
@@ -228,8 +256,10 @@ const ultrassom = (
 			é importante para determinar a adequação do tratamento às suas necessidades individuais.
 
 	</p>
+	</Text>
 )
 const corrente = (
+	<Text>
 	<p>
 		A corrente russa é um procedimento estético não invasivo que utiliza correntes elétricas de baixa frequência e intensidade para estimular a contração muscular e tonificar áreas específicas do corpo. Aqui estão detalhes sobre a aplicação, os tipos de produtos associados e como funciona todo o procedimento:
 
@@ -258,8 +288,10 @@ const corrente = (
 			Consultar um profissional qualificado em estética é fundamental para determinar a adequação do tratamento às suas necessidades 
 			individuais e para receber orientações específicas sobre a frequência das sessões e os cuidados pós-tratamento.
 	</p>
+	</Text>
 )
 const radiofrequencia = (
+	<Text>
 	<p>
 		A radiofrequência estética é um procedimento não invasivo que utiliza energia de radiofrequência para aquecer as camadas profundas 
 		da pele e estimular a produção de colágeno. Aqui estão detalhes sobre a aplicação, os tipos de produtos associados e como funciona 
@@ -291,8 +323,10 @@ const radiofrequencia = (
 			Consultar um profissional qualificado em estética é importante para determinar a adequação do tratamento às suas necessidades individuais 
 			e receber orientações específicas sobre a frequência das sessões e os cuidados pós-tratamento.
 	</p>
+	</Text>
 )
 const fototerapia = (
+	<Text>
 	<p>
 		A fototerapia estética é um procedimento que utiliza luzes de diferentes cores e intensidades para tratar várias condições da pele, 
 		melhorar a aparência e estimular a produção de colágeno. Aqui estão detalhes sobre a aplicação, os tipos de produtos associados e 
@@ -325,6 +359,7 @@ const fototerapia = (
 		É importante consultar um profissional qualificado em estética para determinar a adequação do tratamento às suas necessidades 
 		individuais e para receber orientações específicas sobre a frequência das sessões e os cuidados pós-tratamento.
 	</p>
+	</Text>
 )
 
 export const faq = [

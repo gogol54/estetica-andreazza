@@ -17,10 +17,27 @@ const Title = styled.h1`
   color: #966D39;
   font-family: 'Reenie Beanie', cursive;
 `
+const Box = styled.div`
+  display: flex;
+  justify-content: space-evenly;
+  @media (max-width: 540px) {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+`
 const MiniBox = styled.img`
   border-radius: 20px;
-  width: 300px;
-  height: 200px;
+  max-width: 350px;
+  max-height: 290px;
+  flex: 2;
+`
+const Message = styled.div`
+  flex: 2;
+  margin-left: 20px;
+  @media (max-width: 540px) {
+    margin-top: 20px;
+  }
 `
 const Treatments = () => {
   const { state } = useLocation()
@@ -38,12 +55,19 @@ const Treatments = () => {
     
     <>
     <Topbar />
+    
     <Container className='container'>
-      <Title style={{margin:'20px'}}>{treat[0].name}</Title>
+    <br />
+    <Title >{treat[0].name}</Title>
+    <Box>
       <MiniBox
         src={treat[0].src}
         alt='imagem tratamento'
       />
+      <Message>
+        {treat[0].message}
+      </Message>
+    </Box>
     </Container>
       <Cards dataset={dataset} />
     <Footer />
